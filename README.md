@@ -21,12 +21,15 @@ Css returned
  cd image2boxshadow 
 ```
 3. Copy the `.env.example` file and rename it to `.env`, then fill in the correct configurations. 
-
-4. Run the application with:
+4. Install the composer dependencies
+```bash
+ composer install
+```
+5. Run the application with:
 ```bash
  php artisan serve 
 ```
-5. Goto http://127.0.0.1:8000
+6. Goto http://127.0.0.1:8000 and have fun!
 
 
 
